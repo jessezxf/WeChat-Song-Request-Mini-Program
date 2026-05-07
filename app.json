@@ -1,0 +1,45 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/search/search",
+    "pages/queue/queue",
+    "pages/suggest/suggest",
+    "pages/messages/messages"
+  ],
+  "window": {
+    "navigationBarTitleText": "今晚想听",
+    "navigationBarBackgroundColor": "#101820",
+    "navigationBarTextStyle": "white",
+    "backgroundColor": "#f6f2ea"
+  },
+  "tabBar": {
+    "color": "#7c7468",
+    "selectedColor": "#d04f3a",
+    "backgroundColor": "#fffaf2",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "歌单"
+      },
+      {
+        "pagePath": "pages/search/search",
+        "text": "搜索"
+      },
+      {
+        "pagePath": "pages/queue/queue",
+        "text": "队列"
+      },
+      {
+        "pagePath": "pages/suggest/suggest",
+        "text": "建议"
+      },
+      {
+        "pagePath": "pages/messages/messages",
+        "text": "留言"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
